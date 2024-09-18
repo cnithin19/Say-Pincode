@@ -25,7 +25,7 @@ async function getData(){
     const length=data[0].PostOffice.length;
 let x="";
     for(let i=0;i<length;i++){
-        x+=` ${data[0].PostOffice[i].Name} Pincode: ${data[0].PostOffice[i].Pincode} 
+        x+=`=> ${data[0].PostOffice[i].Name} Pincode: ${data[0].PostOffice[i].Pincode} 
              , District:  ${data[0].PostOffice[i].District} 
          , State: ${data[0].PostOffice[i].State} <br>`
         console.log(
@@ -59,7 +59,7 @@ try {
     let x="";
     x+=`<p>city or villages of pincode:${input.value}</p><br>`
     for(let i=0;i<length;i++){
-        x+=` ${data[0].PostOffice[i].Name}  , ${data[0].PostOffice[i].District} , ${data[0].PostOffice[i].State}<br>`
+        x+=`=> ${data[0].PostOffice[i].Name}  , ${data[0].PostOffice[i].District} , ${data[0].PostOffice[i].State}<br>`
     }
     // console.log(x)
     console.log(url+" "+response+" "+data) 
