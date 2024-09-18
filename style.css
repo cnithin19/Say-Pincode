@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(61, 55, 55);
+    justify-content: center;
+    color: antiquewhite;
+
+    /* background-image: url(https://img.freepik.com/free-vector/silhouette-skyline-illustration_53876-78792.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726531200&semt=ais_hybrid); */
+    /* background-image: url(https://www.shutterstock.com/image-vector/purple-cityscape-background-city-buildings-600nw-2296429971.jpg); */
+}
+#main{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-self: center;
+}
+#title{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+    font-style: bold;
+}
+#btn{
+    padding: 1rem;
+    background-color: azure;
+    border-radius: 40%;
+    border-color: aquamarine;
+    border: 0.4rem;
+    font-size: 1.1rem;;
+}
+#input{
+    padding: 1rem;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+#btn:hover{
+    border-radius: 50%;
+    background-color: cadetblue;
+}
+p{
+    font-size: 1.4rem;
+}
+#output{
+    font-size: 1.5rem;
+
+}
